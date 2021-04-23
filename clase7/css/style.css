@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+body {
+    margin: 0;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.caja1, .caja2, .caja3 {
+    width: 200px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 50px;
+}
+
+.caja1 {
+    background: rgb(247, 191, 190);
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.caja2 {    
+    position: relative;
+    background: purple;
+    color: white;
+}
+
+.caja3 {
+    background: orange;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}

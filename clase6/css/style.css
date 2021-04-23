@@ -1,0 +1,23 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+@font-face {
+    font-family: 'Gianna';
+    src: url('../fonts/leaves_and_ground.ttf')
+}
+
+h1 {
+    font-family: 'Gianna';
+    background-color: red
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/2104378.jpg');
+}
+
+.otroTamanio {
+    color: orange;
+    font-size:13px
+}

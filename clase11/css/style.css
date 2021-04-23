@@ -1,0 +1,41 @@
+input[type=password]:focus {
+    border: 3px solid rgb(0,0,255)
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('../img/smart-light.svg');
+    background-size: cover;
+    transition: .3s ease-in-out;
+}
+
+ul li:hover::before {
+    margin-right: 15px;
+}
+
+ul li::after {
+    content: "\f13d";
+    font-size: 9px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.combo.required label::after {
+    content: "Campo obligatorio";
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}

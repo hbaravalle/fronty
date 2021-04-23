@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    /* Alineacion eje primario */
+    justify-content: space-between;
+    /* Alineacion eje secundario */
+    align-items: center;
+    
+    background-color: pink;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 8px;
+}
+
+/*
+
+nav ul li:nth-child(odd) {
+    background-color: red;
+}
+
+section article:nth-child(2) {
+    background: orange;
+}
+
+section article:nth-of-type(2) {
+    background: purple;
+}
+
+*/
+
+button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+button:hover /* Hover board */ {
+    display: none;
+}
+
+a:visited {
+    color: red
+}
+
+a:active {
+    background: green
+}

@@ -1,0 +1,20 @@
+div.combo {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
+/* =======================
+- Página de pruebas
+======================= */
+
+header {
+    display: flex
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}

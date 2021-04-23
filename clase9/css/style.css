@@ -1,0 +1,8 @@
+body {
+    text-align: center
+}
+
+.fa-heart {
+    color: red;
+    cursor: pointer;
+}
