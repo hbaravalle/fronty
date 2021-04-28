@@ -1,0 +1,61 @@
+/* ==========================
+- Transition
+========================== */
+
+section.transition {
+    background-color: #eaeaea;
+}
+
+section.transition article {
+    width: 30%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 25px;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+section.transition article p {
+    font-size: 14px;
+    margin: 15px 0 20px;
+}
+
+section.transition article button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background: rgb(0, 68, 255);
+}
+
+/* Con translate */
+
+section.transition article.translate:hover {
+    transform: translateY(-20px);
+    box-shadow:
+        0 14px 28px rgba(0,0,0,0.25),
+        0 10px 10px rgba(0,0,0,0.22)
+}
+
+/* Con scale */
+
+section.transition article.scale:hover {
+    transform: scale(1.2);
+}
+
+/* Con skew */
+
+section.transition article.skew:hover {
+    transform: skew(10deg, 20deg);
+}
+
+/* Con rotate */
+
+section.transition article.rotate:hover {
+    /* transform-origin: 0; ----> ???? */
+    transform: rotate(180deg);
+}

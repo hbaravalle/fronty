@@ -1,0 +1,38 @@
+section.offcanvas {
+    height: 0;
+}
+
+/* A PARTIR DE ACÁ */
+
+section.offcanvas button {
+    position: fixed;
+    border: none;
+    right: 20px;
+    top: 20px;
+}
+section.offcanvas button img {
+    width: 40px;
+}
+
+section.offcanvas button:hover + * {
+    left: 0;
+}
+
+section.offcanvas .menu {
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    background: black;
+    padding: 40px;
+    top: 0;
+    left: -20vw;
+    transition: left 0.3s ease-in;
+}
+
+section.offcanvas .menu ul {
+    list-style-type: none;
+}
+
+section.offcanvas .menu ul li a {
+    color: white;
+}

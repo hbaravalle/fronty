@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="img/logo.svg" alt="">
+        </header>
+        <main>
+            <div class="marquee">
+                <div class="marquee__inner">
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                </div>
+            </div>
+            <div class="marquee">
+                <div class="marquee__inner">
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                </div>
+            </div>
+            <div class="marquee">
+                <div class="marquee__inner">
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                    <span>Bienvenidxs al club —</span>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script>
+            window.addEventListener('load', () => {
+                let today = new Date();
+                document.querySelector('footer').innerText = `Digital House, ${ today.getFullYear() }.`
+            })
+        </script>
+    </div>
+</body>
+</html>

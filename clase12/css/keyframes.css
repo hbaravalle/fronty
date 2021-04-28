@@ -1,0 +1,32 @@
+/* ==========================
+- Keyframes
+========================== */
+
+section.keyframe1 {
+    background-color: pink;
+}
+
+section.keyframe1 article {
+    animation: fadeIn 1s ease-in-out;
+}
+
+section.keyframe1 article h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+section.keyframe1 article p  {
+    margin-top: 5px;
+}
+
+@keyframes fadeIn {
+    0%, 50% {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
