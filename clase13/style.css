@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+main {
+    background-color: violet;
+}
+
+main section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section article {
+    width: 20%;
+    height: 50vh;  
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 1px 10px 24px 3px rgba(0,0,0,0.31);
+    padding: 40px;
+}
+
+main section article div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section article div h2 {
+    width: 100%;
+    font-size: 2rem;
+}
+
+main section article div p {
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* if (tamanioPantalla <= 760px)... */
+
+@media (max-width: 760px) {
+    html {
+        font-size: 15px;
+    }
+    main {
+        background-color: tomato
+    }
+    main section article {
+        width: 40%;
+    }
+}
+
+/* if (tamanioPantalla <= 400px)... */
+
+@media (max-width: 400px) {
+    main {
+        background-color: yellow;
+    }
+    main section article {
+        width: 100%;
+    }
+}

@@ -43,7 +43,7 @@ main .marquee {
 }
 
 main .marquee .marquee__inner {
-    width:fit-content;
+    width: fit-content;
     display: flex;
     animation: marquee 11s linear infinite;
     /* transform: translateX(-25%); */
