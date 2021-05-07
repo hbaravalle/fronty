@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =================
+- HEADER
+================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    /* background-color: #f56140; */
+}
+
+header .menu {
+    display: none
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+/* =================
+- SECTION INTRO
+================= */
+
+.intro {
+    display: flex;
+    align-items: center; /* SECUNDARIO */
+    padding: 0 30px;
+}
+
+/* =================
+- FOOTER
+================= */
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f56140;
+    padding: 15px 30px;
+}
+
+.inferior {
+    /* height: 150px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e26;
+    padding: 15px 30px;
+}
+
+.inferior ul li a {
+    color: white;
+}
+
+.inferior p {
+    color: white
+}
+
+.inferior .redes img {
+    margin-bottom: 60px
+}
+
+.inferior .redes ul {
+    display: flex
+}
+
+@media (max-width: 700px) {
+    header > button {
+        display: none
+    }
+    nav .menu {
+        display: block
+    }
+    nav ul {
+        display: none
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+    }
+}
